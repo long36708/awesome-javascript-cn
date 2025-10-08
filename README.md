@@ -143,6 +143,7 @@ JavaScript 模块或加载系统。
 * [Parcel](https://github.com/parcel-bundler/parcel)：零配置，超快速 Web 应用打包工具。
 * [Microbundle](https://github.com/developit/microbundle)：用于小模块的零配置打包工具。
 * [FuseBox](https://github.com/fuse-box/fuse-box)：一个只做正确事情的打包工具。
+* [sonda](https://github.com/filipsobol/sonda)：通用的 JavaScript 和 CSS 可视化分析工具，兼容大多数打包工具和框架。
 
 ## 类型检测
 
@@ -423,6 +424,8 @@ Web 数据可视化工具
 
 *处理文件的库。*
 
+* [node-tar](https://github.com/isaacs/node-tar)：适用于 Node.js 的快速且功能完整的 Tar 库。
+* [node-unzipper](https://github.com/ZJONSSON/node-unzipper)：用于解压 ZIP 文件的 Node.js 跨平台库。
 * [Papa Parse](https://github.com/mholt/PapaParse)：一款强大的 CSV 库，支持解析 CSV 文件/字符串，也能导出 CSV。
 * [jBinary](https://github.com/jDataView/jBinary)：对用声明式语法描述文件类型和数据结构的二进制文件，进行高级
   I/O（加载、解析、操作、序列化、存储）操作。
@@ -535,6 +538,7 @@ Web 数据可视化工具
 * [DB.js](https://github.com/aaronpowell/db.js/)：基于 Promise 的、封装了 IndexedDB 的库。
 * [lawnchair.js](https://github.com/brianleroux/lawnchair/)：简单的客户端 JSON 存储。
 * [sql.js](https://github.com/kripken/sql.js)：基于 Emscripten 将 SQLite 编译成 JavaScript。
+* [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)：Node.js 环境下最快、最简单的 SQLite3 库。
 * [crumbsjs](https://github.com/nirtz89/crumbsjs)：一款轻量级原生 ES6 cookies 和本地存储 JavaScript 库。
 * [awesome-web-storage](https://github.com/softvar/awesome-web-storage)：你必须知道的所有客户端存储知识。
 
@@ -784,6 +788,10 @@ Web 数据可视化工具
   的混合体。基于jQuery，兼具自动补全和原生键盘导航，可用于标签、联系人列表等。
 * [select2](https://github.com/select2/select2)：基于 jQuery，是选择框的替代品。支持搜索、远程数据集和无限滚动。
 * [chosen](https://github.com/harvesthq/chosen)：可以让冗长不便的选择框更友好的库。
+
+### 文件操作
+
+* [open](https://github.com/sindresorhus/open)：打开文件、URL、可执行文件等的工具。
 
 ### 文件上传
 
