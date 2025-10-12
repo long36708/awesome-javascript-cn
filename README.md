@@ -1049,6 +1049,8 @@ Web 数据可视化工具
 * [Idyll](https://github.com/idyll-lang/idyll)
   ：用于创建探索式说明和互动故事文章。可以[插入 HTML 中](https://github.com/idyll-lang/idyll-embed).
 * [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)：算法和数据结构的 JS 实现，包含详细解释和发散文章链接。
+* [readability](https://github.com/mozilla/readability)：Firefox 读者视图使用的可读性库的独立版本，用于从网页中提取主要内容。
+* [wxt](https://github.com/wxt-dev/wxt)：用于开发 Web 扩展的下一代框架，支持所有浏览器和 MV2/MV3 版本。
 
 <h1 id="resources">资源</h1>
 
