@@ -200,6 +200,7 @@ JavaScript 模块或加载系统。
 * [intern](https://github.com/theintern/intern)：下一代 JavaScript 代码测试栈。
 * [yolpo](http://www.yolpo.com/)：在浏览器逐句执行的 JavaScript 解释器。
 * [puppeteer](https://github.com/GoogleChrome/puppeteer)：谷歌 Chrome 团队出品，无界面 Chrome （Chromium） Node.js API 环境。
+* [esno](https://github.com/esbuild-kit/esno)：基于 esbuild 的 Node.js 运行时，用于直接运行 TypeScript 和 ESM 代码。已不维护，推荐使用tsx
 * [webdriverio](https://github.com/webdriverio/webdriverio)：下一代 Web 驱动的 Node.js 自动化测试框架。
 * [taiko](https://github.com/getgauge/taiko)：用于自动测试 Chromium 内核浏览器的简易 Node.js API 库。
 
@@ -426,6 +427,9 @@ Web 数据可视化工具
 
 * [node-tar](https://github.com/isaacs/node-tar)：适用于 Node.js 的快速且功能完整的 Tar 库。
 * [node-unzipper](https://github.com/ZJONSSON/node-unzipper)：用于解压 ZIP 文件的 Node.js 跨平台库。
+* [client-zip](https://github.com/Touffy/client-zip)：在浏览器中将多个文件合并成 ZIP 文件的轻量级库。
+* [fast-glob](https://github.com/mrmlnc/fast-glob)：高性能文件路径模式匹配库，用于快速查找和过滤文件。
+* [tinyglobby](https://github.com/SuperchupuDev/tinyglobby)：轻量级文件匹配库，是 fast-glob 和 globby 的替代品，仅有少量依赖。
 * [Papa Parse](https://github.com/mholt/PapaParse)：一款强大的 CSV 库，支持解析 CSV 文件/字符串，也能导出 CSV。
 * [jBinary](https://github.com/jDataView/jBinary)：对用声明式语法描述文件类型和数据结构的二进制文件，进行高级
   I/O（加载、解析、操作、序列化、存储）操作。
@@ -536,6 +540,8 @@ Web 数据可视化工具
 * [js-cookie](https://github.com/js-cookie/js-cookie)：一款简单、轻量的 cookies 读写删 jQuery 插件。
 * [Cookies](https://github.com/ScottHamper/Cookies)：一个客户端 Cookie 操作库。
 * [DB.js](https://github.com/aaronpowell/db.js/)：基于 Promise 的、封装了 IndexedDB 的库。
+* [Dexie.js](https://github.com/dexie/Dexie.js)：IndexedDB 的轻量级封装库，提供简洁的 API 和强大的查询功能。
+* [lru-cache](https://github.com/isaacs/node-lru-cache)：基于 LRU 算法的缓存库，用于在 Node.js 环境中实现高效的内存缓存。
 * [lawnchair.js](https://github.com/brianleroux/lawnchair/)：简单的客户端 JSON 存储。
 * [sql.js](https://github.com/kripken/sql.js)：基于 Emscripten 将 SQLite 编译成 JavaScript。
 * [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)：Node.js 环境下最快、最简单的 SQLite3 库。
@@ -587,6 +593,7 @@ Web 数据可视化工具
 
 * [DOMPurify](https://github.com/cure53/DOMPurify)：针对 HTML、MathML 和 SVG 的仅支持 DOM 的超快速、高容错的 XSS 过滤器。
 * [js-xss](https://github.com/leizongmin/js-xss)：通过白名单配置，即可过滤不信任的 HTML（防止 XSS 攻击）。
+* [ultrahtml](https://github.com/natemoo-re/ultrahtml)：轻量级 HTML 处理库，具有解析、清理和转换 HTML 功能。
 * [xss-filters](https://github.com/yahoo/xss-filters)：Yahoo 出品的安全 XSS 过滤器。
 
 ## 日志
@@ -658,6 +665,7 @@ Web 数据可视化工具
 
 * [Highlight.js](https://github.com/isagalaev/highlight.js)：JavaScript 语法高亮器。
 * [PrismJS](https://github.com/PrismJS/prism)：轻量、健壮和优雅的语法高亮器。
+* [Shiki](https://github.com/shikijs/shiki)：基于 TextMate 语法的代码语法高亮器，与 VS Code 的语法高亮引擎相同。
 
 ## 加载状态
 
@@ -698,6 +706,7 @@ Web 数据可视化工具
 * [keymaster](https://github.com/madrobby/keymaster)：定义和调度键盘快捷键的小型库。
 * [Keypress](https://github.com/dmauro/Keypress)：键入捕捉工具库，任何键都可以成为一个修饰健。
 * [KeyboardJS](https://github.com/RobertWHurst/KeyboardJS)：一个用于绑定组合键的 JavaScript 库，让你无痛解决快捷键和组合键冲突。
+* [hotkeys-js](https://github.com/jaywcjlove/hotkeys-js)：一个功能强大的 JavaScript 键盘快捷键监听库，支持单键、组合键和按键序列。
 * [jquery.hotkeys](https://github.com/jeresig/jquery.hotkeys)：jQuery Hotkeys 能让你在代码任何的地方监听键盘事件，并几乎支持所有按键组合。
 * [jwerty](https://github.com/keithamus/jwerty)：令人惊叹的键盘事件处理库。
 
@@ -1034,6 +1043,7 @@ Web 数据可视化工具
 * [jquery.vibrate.js](https://github.com/illyism/jquery.vibrate.js)：震动接口封装。
 * [list.js](https://github.com/javve/list.js)：给表格、列表等众多 HTML 元素添加搜索、排序、过滤和自适应特性，零感知作用于已有的
   HTML 。[http://www.listjs.com](http://www.listjs.com)
+* [FZF for JavaScript](https://fzf.netlify.app)（https://github.com/ajitid/fzf-for-js)：基于 FZF 算法的 JavaScript 模糊搜索库，提供强大的模糊匹配功能。
 * [mixitup](https://github.com/patrickkunka/mixitup)：一款过滤和排序的插件。
 * [grid](https://github.com/hootsuite/grid)：用于二维可变大小响应式列表的拖拽库。
 * [jquery-match-height](https://github.com/liabru/jquery-match-height)：一款响应式等高 jQuery 插件。
